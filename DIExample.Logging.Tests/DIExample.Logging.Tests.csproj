@@ -53,7 +53,7 @@
       <Project>{bcd3f2e0-dac0-4878-901e-65c20c89f6e4}</Project>
       <Name>DIExample.Business</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DIExample.Logging\DIExample.Logging.Xml.csproj">
+    <ProjectReference Include="..\DIExample.Logging\DIExample.Logging.csproj">
       <Project>{a9ae2eb3-5885-4be3-9bc3-8b68fc48c201}</Project>
       <Name>DIExample.Logging.Xml</Name>
     </ProjectReference>

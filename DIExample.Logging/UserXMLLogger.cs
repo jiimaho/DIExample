@@ -8,7 +8,7 @@ using System.IO;
 
 using DIExample.Business;
 
-namespace DIExample.Logging.Xml
+namespace DIExample.Logging
 {
     public class UserXMLLogger : IUserLogger
     {
@@ -31,7 +31,7 @@ namespace DIExample.Logging.Xml
             userNode.Attributes.Append(emailAttribute);
 
             doc.DocumentElement.AppendChild(userNode);
-            doc.Save(@"\\psf\Home\Documents\Visual Studio 2013\Projects\DIExample\DIExample.Entry\bin\Debug\user_log.xml");
+            doc.Save(@"user_log.xml");
 
         }
     }

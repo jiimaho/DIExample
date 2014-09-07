@@ -7,7 +7,7 @@ using NUnit.Framework;
 using DIExample.Business;
 using System.IO;
 using System.Xml;
-using DIExample.Logging.Xml;
+using DIExample.Logging;
 
 namespace DIExample.Logging.Tests
 {
